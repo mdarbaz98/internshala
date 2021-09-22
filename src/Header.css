@@ -1,0 +1,79 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 73px;
+    box-shadow: 1px 0px 2.5px rgb(175, 175, 175);
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+header ul li i{
+    margin-left: 5px;
+    font-size: 1rem;
+}
+
+.fa-bookmark{
+    font-size: 1.2rem;
+}
+
+header ul li span{
+    font-size: 0.8rem;
+    margin-left: 5px;
+    background-color: #FF8C00;
+    padding: 1px 5px 3px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+header ul li:last-child{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+header ul li .a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px  #666;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+header ul li a{
+    color:  #666;
+}
+
+header ul li:hover a{
+    color: #008BDC;
+}
+
+header ul li:hover .a{
+    color: #008BDC;
+    border: solid 1px  #008BDC;
+}
+
+header ul li:hover .fa-caret-down{
+    color: #008BDC;
+}

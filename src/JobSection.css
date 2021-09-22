@@ -1,0 +1,153 @@
+.JobSection{
+    margin-left: 30px;
+    background-color: white;
+    z-index: 99;
+}
+
+.item{
+    padding: 10px 0px;
+    color: #666;
+    font-size: 0.86rem;
+}
+
+.bottom_offer{
+    padding: 4px 23px !important;
+    background-color: #FF8C00 !important;
+    color: white !important;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.bold{
+    font-weight: 600;
+    color: rgb(54, 54, 54);
+}
+
+.light_bold{
+    font-weight: 500;
+    color: rgb(88, 88, 88) !important;
+}
+
+
+.card{
+    width: 616px;
+    padding: 30px 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(233, 233, 233),
+    -1px -1px 1px rgb(233, 233, 233);
+}
+
+li{
+    list-style: none;
+}
+
+.card_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_header .job_title{
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+    color: #484848;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+.company_logo{
+    margin-left: 16px;
+}
+
+.offer_tag{
+    margin-right: -20px;
+}
+
+.company_name{
+    color: #8A8A8A;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.43;
+}
+
+.location,.job_details .second li{
+    line-height: 22px;
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.job_details .first li{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #8A8A8A;
+    font-weight: 500;
+}
+
+.icn{
+    padding-right: 10px;
+}
+
+
+.list{
+    margin-bottom: 25px;
+}
+
+.guideline{
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #666;
+    display: flex;
+}
+
+.guideline .fa-home{
+    margin-right: 5px;
+}
+
+.list:last-child{
+    margin-bottom: 0px;
+}
+
+.inner_list{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.inner_list li{
+    margin-right: 30px;
+}
+
+.internship_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.internship_details .tags{
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    background-color: #f8f8f8;
+    color: #666;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.internship_details .details_button{
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #008BDC;
+    cursor: pointer;
+    line-height: 1.14285714;
+}
